@@ -16,9 +16,8 @@ import { API,ChannelId } from "./env.js";
                 position: 'top-center',
                 title: 'Success',
                 message: 'Yes your action is successfull',
-                type: 'success',
-                autoClose: false,
-                // autoClose: 4000,
+                type: 'success', 
+                autoClose: 4000,
                 progress: true, 
             }); 
         });

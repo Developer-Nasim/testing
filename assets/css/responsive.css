@@ -1,0 +1,1302 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    body{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .menu-area ul { 
+        padding: 0 15px;
+    }
+    .menu-area ul li {
+        width: 48%;
+    }
+    .menu-area ul a {
+        width: 100%;
+        min-width: 130px;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 0 12px;
+    }
+    a.logo-area { 
+        max-width: 140px; 
+    }
+    .coin_bgs { 
+        margin-top: 0px; 
+    }
+    .coin_bgs .left-img_rg {  
+        max-width: 485px;
+        left: 3%;
+        top: 45px;
+    }
+    .f_top > div > img.logo {
+        max-width: 290px;
+    }
+    .f_top > div p.cpRt { 
+        margin-left: 50px; 
+    }
+    .rg_inst .rg_img {
+        max-width: 600px;  
+    }
+    .choose-area { 
+        margin-top: -350px; 
+    }
+    .register_instant img.rg_bg { 
+        height: 960px;
+        top: -115px;
+    }
+    .coin_bgs img.symbl_bg { 
+        top: 230px; 
+    }
+
+    .rg_img_blk { 
+        margin-top: 40px; 
+    } 
+    .register_instant:before{
+        display: none;
+    }
+    .how_to_top > img.symbolBg { 
+        bottom: -335px; 
+        clip-path: polygon(0 0, 100% 0, 100% 315px, 0 180px);
+    }
+    .extraParts img.coinBg { 
+        top: -25px; 
+    }
+    .extraParts img.lights {
+        top: 75px; 
+    }
+
+    .extraParts img.coinLine { 
+        height: 500px;
+    }
+    .register_instant { 
+        margin-top: -285px;
+    }
+    .extraParts img.kang {
+        width: 580px; 
+    }
+    .kng_coins { 
+        top: -489px;
+        right: 5%;
+    }
+
+
+    /* Raffle */
+    .coin_bgs img.ggrp { 
+        bottom: 420px;
+        max-width: 840px; 
+    }
+    .coin_bgs.raffle img.mbgs { 
+        bottom: 410px; 
+    }
+    .coin_bgs img.gift { 
+        right: 17%;
+        bottom: 415px; 
+    }
+    .raffle form { 
+        width: 510px;
+        height: 765px;
+        padding: 170px 40px; 
+    }
+    raffle form img.left { 
+        left: -37%;
+        bottom: 80px;
+        max-height: 280px;
+    }
+    .raffle form img.right { 
+        right: -45%;
+        bottom: 12px;
+        max-height: 400px;
+    }
+    .raffle form img.left { 
+        left: -38%;
+        bottom: 75px;
+        max-height: 280px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    body{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .menu-area ul { 
+        padding: 0 15px;
+    }
+    .menu-area ul li {
+        width: 48%;
+    }
+    .menu-area ul a {
+        width: 100%;
+        min-width: 130px;
+        margin: 10px 0;
+        font-size: 16px;
+        padding: 0 12px;
+    }
+    a.logo-area { 
+        max-width: 100px; 
+    }
+    .coin_bgs { 
+        margin-top: 0px; 
+        padding-top: 380px;
+    }
+    .coin_bgs .left-img_rg {  
+        max-width: 370px;
+        left: 5%;
+    }
+    .f_top > div > img.logo {
+        max-width: 200px;
+    }
+    .f_top > div p.cpRt { 
+        margin-left: 25px; 
+    }
+    .rg_inst .rg_img {
+        max-width: 330px;
+        top: -30px;
+    }
+    .choose-area { 
+        margin-top: -350px; 
+        padding-top: 320px;
+        padding-bottom: 100px;
+    }
+    .f_top > div p.cpRt { 
+        margin-left: 10px; 
+        font-size: 14px;
+        line-height: 30px; 
+        padding: 10px 30px; 
+    }
+    .f_bottom p{
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    } 
+    .f_top { 
+        padding-bottom: 25px;
+        margin-bottom: 30px;
+    }
+    .f_bottom {
+        padding-bottom: 40px;
+    }
+    .rg_txt h3 { 
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.2em; 
+    }
+    .rg_txt h3 span { 
+        font-size: 40px;
+        line-height: 40px; 
+    }
+    .register_instant:before{
+        display: none;
+    }
+    .rg_txt ul {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .coin_bgs .left-img_rg button svg {
+        height: 50px;
+    }
+    a.themeBtn { 
+        height: 50px; 
+    }
+    a.themeBtn.withArrow {
+        padding: 0px 55px  0px 20px;
+    }
+    a.themeBtn img { 
+        right: 15px;
+        max-height: 35px; 
+    }
+    a.themeBtn.withArrow:after { 
+        width: 50px;
+        height: 98%; 
+    }
+    .rg_txt ul li { 
+        padding-top: 15px;
+    }
+    .rg_txt {
+        padding-left: 20px;
+    }
+
+    .section_title h3.greadient_bg { 
+        font-size: 42px;
+        line-height: 30px;
+    }
+    .section_title p { 
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .rg_img_blk { 
+        margin-top: 30px; 
+    }
+    .register_instant { 
+        margin-top: -335px;
+        padding-top: 230px;
+    } 
+    .header-area {
+        padding: 40px 0;
+    } 
+    .register_instant img.rg_bg { 
+        height: 670px; 
+    }
+    .coin_bgs img.symbl_bg { 
+        top: 145px; 
+    }
+    .extraParts img.kang {
+        width: 460px; 
+    }
+    .kng_coins img.coin_2 {
+        bottom: 60px;
+        left: 48px;
+        max-width: 55px;
+    }
+    .kng_coins img.coin_1 {
+        bottom: 150px;
+        left: 65px;
+        max-width: 30px;
+    }
+    .kng_coins img.coin3 {
+        bottom: 65px;
+        right: 80px;
+        max-width: 70px;
+    }
+    .kng_coins { 
+        top: -360px;
+        right: 6%;
+    }
+    .extraParts img.coinBg {
+        height: 200px; 
+        top: 8px; 
+    }
+    .extraParts img.lights {
+        top: 90px; 
+    }
+    img.coinLine { 
+        height: 425px; 
+    }
+
+
+
+
+
+    /* Page 2 responsive css STARTED */
+
+    .how_to_top h4 div { 
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    h3.ftitle span, .stp_wrp h3.f2title > div, .stp_wrp h3.f3title > div, .stp_wrp h3.f4title > div { 
+        font-size: 30px;
+        line-height: 28px; 
+    }
+    h3.ftitle a, .stp_wrp h3.f2title span, .stp_wrp h3.f3title span, .stp_wrp h3.f4title span { 
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .how_to_top > img.symbolBg { 
+        bottom: -260px; 
+        clip-path: polygon(0 0, 100% 0, 100% 315px, 0 180px);
+    }
+    .single_step.left_mode .stp_wrp {
+        margin-left: 30px;
+    }
+    .single_step.right_mode .stp_wrp { 
+        margin-right: 30px;
+    }
+    .rq_info {
+        margin-top: 20px; 
+    }
+    .how_to_top h4 { 
+        font-size: 30px; 
+    }
+    .how_to_top h4 img {
+        max-width: 290px; 
+    }
+    .stp_wrp h3.f2title {
+        font-size: 26px;
+        line-height: 30px;
+    } 
+    .stp_wrp h3 {
+        margin-bottom: 25px;
+    }
+    h3.f3title { 
+        font-size: 26px; 
+        line-height: 24px;
+    }
+    h3.f3title .greadient_bg { 
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    h3.f4title span { 
+        font-size: 30px;
+        line-height: 30px;
+    }
+    h3.f4title .greadient_bg { 
+        font-size: 40px;
+        line-height: 35px; 
+    }
+    .end_more_wrp { 
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .end_more_wrp p.l_tp_content {
+        margin-bottom: 90px;
+    }
+    .guid_item b { 
+        font-size: 11px;
+        line-height: 20px;
+        letter-spacing: 0.1.5em; 
+    }
+    .kng_coins.withoutKan img.coin3 {
+        top: -130px; 
+        max-width: 70px;
+    }
+    .all_videos { 
+        margin-top: -140px;
+    }
+    img.bottom_img { 
+        margin-bottom: -25px;
+    }
+
+
+    /* Raffle */
+    .coin_bgs img.ggrp { 
+        bottom: 380px;
+        max-width: 605px;
+        margin-left: -60px;
+    }
+    .coin_bgs.raffle img.mbgs {
+        bottom: 360px;
+        min-width: 155% !important;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .coin_bgs img.gift { 
+        right: 17%;
+        bottom: 415px; 
+    }
+    .raffle form { 
+        width: 510px;
+        height: 710px;
+        padding: 135px 35px;
+        margin-bottom: -80px;
+    }
+    raffle form img.left { 
+        left: -37%;
+        bottom: 80px;
+        max-height: 280px;
+    }
+    .raffle form img.right { 
+        right: -45%;
+        bottom: 12px;
+        max-height: 400px;
+    }
+    .raffle form img.left { 
+        left: -38%;
+        bottom: 75px;
+        max-height: 280px;
+    }
+    .coin_bgs img.gift {
+        right: 17%;
+        bottom: 350px;
+        max-width: 60px;
+    }
+    .coin_bgs img.gift2 { 
+        bottom: 100px; 
+        max-width: 75px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    body{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .header-area {
+    padding: 30px 0;
+    position: relative;
+}
+    a.logo-area { 
+        max-width: 100px; 
+    }
+    .bar {
+        position: absolute;
+        top: 25%;
+        right: 3%;
+        z-index: 9;
+    }
+    .coin_bgs .left-img_rg {
+        position: absolute;
+        top: 0;
+        margin: auto;
+        max-width: 100%;
+        left: 50%;
+        display: block;
+        width: 580px;
+        margin-bottom: 10px;
+        transform: translateX(-50%);
+    }
+    .register_instant { 
+        margin-top: -255px;
+    }
+    .f_top {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+    
+    .f_top > div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .f_top ul.social {
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .f_top > div p.cpRt {
+        margin: 0;
+        margin-top: 25px;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .f_bottom p {
+        max-width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .f_bottom {
+        padding-bottom: 25px;
+    }
+    .choose-area { 
+        padding-bottom: 70px;
+        padding-top: 230px;
+        margin-top: -150px;
+    }
+    .coin_bgs { 
+        margin-top: 40px;
+        padding-top: 830px;
+    }
+    img.coinLine {
+        height: 320px;
+        object-fit: cover;
+        object-position: right;
+    }
+    .rg_img_blk { 
+        margin-top: 20px; 
+    }
+    .register_instant img.rg_bg {
+        height: 700px;
+        object-fit: cover;
+    }
+    .rg_txt h3 { 
+        font-size: 22px;
+        line-height: 30px; 
+    }
+    .rg_txt h3 span { 
+        font-size: 34px;
+        line-height: 30px; 
+    }
+    .rg_txt ul li { 
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+    .rg_txt ul {
+        margin-top:0px;
+        margin-bottom: 35px;
+    }
+    .rg_txt {
+        padding-left: 25px;
+        padding-top: 35px;
+    }
+    a.themeBtn { 
+        height: 50px; 
+    }
+    a.themeBtn.withArrow {
+        padding: 0px 55px  0px 20px;
+    }
+    a.themeBtn img { 
+        right: 15px;
+        max-height: 35px; 
+    }
+    a.themeBtn.withArrow:after { 
+        width: 50px;
+        height: 98%; 
+    }
+    .rg_inst .rg_img {
+        max-width: 320px; 
+        top: -20px;
+    }
+    .section_title h3.greadient_bg { 
+        font-size: 42px;
+        line-height: 31px;
+    }
+    .section_title p { 
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .section_title {
+        margin-bottom: 30px;
+    }
+    .register_instant:before{
+        display: none;
+    }
+    .coin_bgs img.symbl_bg {
+        bottom: 220px;
+        top: auto;
+    }
+    .extraParts img.coinBg {
+        height: 86px; 
+        top: 5px; 
+    }
+    .kng_coins { 
+        top: -530px;
+        right: 3%;
+        transform: scale(.8);
+    }
+
+    /* Page 2 responsive css STARTED */
+ 
+    .how_to_top > img.symbolBg { 
+        bottom: -234px;
+        clip-path: polygon(0 0, 100% 0, 100% 260px, 0 130px);
+    }
+    .how_to_top h4 { 
+        font-size: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .how_to_top h4 div { 
+        font-size: 30px;  
+    }
+    .how_to_top h4 img {
+        max-width: 290px;
+        margin: 0;
+        margin-top: -36px;
+    }
+    .stp_wrp h3.f2title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .stp_wrp h3.f2title .greadient_bg { 
+        font-size: 30px;
+        line-height: 26px; 
+    }
+    .stp_wrp h3 {
+        margin-bottom: 25px;
+    }
+    h3.f3title { 
+        font-size: 26px; 
+        line-height: 24px;
+    }
+    h3.f3title .greadient_bg { 
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    h3.f4title span { 
+        font-size: 30px;
+        line-height: 30px;
+    }
+    h3.f4title .greadient_bg { 
+        font-size: 40px;
+        line-height: 35px; 
+    }
+    .end_more_wrp { 
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+    .end_more_wrp p.l_tp_content {
+        margin-bottom: 90px;
+    }
+    .how_to_top h4 span {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .single_step .stp_wrp {
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    img.stp_img {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        max-width: 90%;
+    }
+    .single_step.right_mode .stp_wrp p {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .rq_info p a img {
+        max-width: 100px;
+    }
+    .single_step.last_step:after { 
+        background: linear-gradient(0, transparent,#21202e,#21202e,#21202e); 
+    }
+
+
+    img.bottom_img { 
+        margin-bottom: -20px;
+    }
+    .all_videos { 
+        margin-top: -90px;
+    }
+    .guid_item b {
+        max-width: 95%; 
+        margin-top: 7px; 
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 0.12em; 
+    }
+    .kng_coins.withoutKan img.coin3 {
+        top: -170px; 
+        max-width: 70px;
+    }
+    .guids_area_top { 
+        padding-top: 100px; 
+    }
+    .guids_area img.topShape { 
+        top: -70px; 
+        max-width: 500px;
+    }
+    .gi_img a img.play_icon { 
+        width: 35px; 
+    }
+
+
+    /* Raffle */
+    .coin_bgs img.ggrp { 
+        bottom: 280px;
+        max-width: 605px;
+        margin-left: -60px;
+    }
+    .coin_bgs.raffle img.mbgs {
+        bottom: 360px;
+        min-width: 155% !important;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .coin_bgs img.gift { 
+        right: 17%;
+        bottom: 415px; 
+    }
+    .raffle form { 
+        width: 400px;
+        height: 630px;
+        padding: 135px 35px;
+        margin-bottom: -80px;
+    }
+    .raffle form img.left { 
+        left: -35%;
+        bottom: 75px;
+        max-height: 200px;
+    }
+    .raffle form img.right { 
+        right: -41%;
+        bottom: 12px;
+        max-height: 300px;
+    }
+    .raffle form img.left { 
+        left: -36%;
+        bottom: 75px;
+        max-height: 215px;
+    }
+    .coin_bgs img.gift {
+        right: 17%;
+        bottom: 260px;
+        max-width: 50px;
+    }
+    .coin_bgs img.gift2 { 
+        bottom: 70px;
+        max-width: 70px;
+    }
+    .raffle form label { 
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .raffle form label input { 
+        padding: 15px;
+    }
+    .raffle form img.captha { 
+        max-width: 150px;
+    }
+
+
+
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .header-area {
+        padding: 30px 0;
+        position: relative;
+    }
+    a.logo-area { 
+        max-width: 100px; 
+    }
+    .bar {
+        position: absolute;
+        top: 15%;
+        right: 3%;
+        z-index: 9;
+    }
+    .coin_bgs .left-img_rg {
+        position: absolute;
+        top: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 300px;
+        left: 50%;
+        display: block;
+        height: auto;
+        margin-bottom: 10px;
+        transform: translateX(-50%);
+    }
+    .kng_coins {
+        z-index: 3;
+        position: absolute;
+        top: -268px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .coin_bgs .left-img_rg button svg {
+        height: 42px;
+    }
+    .f_top {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    
+    .f_top > div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .f_top ul.social {
+        margin: auto;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .f_top > div p.cpRt {
+        margin: 0;
+        margin-top: 25px;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0;
+        padding: 10px 20px;
+    }
+    .extraParts img.kang {
+        max-width: 300px;
+        min-width: 300px;
+        position: unset;
+    }
+    .f_bottom p {
+        max-width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .f_bottom {
+        padding-bottom: 25px;
+    }
+    .choose-area { 
+        padding-bottom: 50px;
+        padding-top: 115px;
+        margin-top: -100px;
+    }
+    .coin_bgs { 
+        margin-top: 40px;
+        padding-top: 500px;
+    }
+    img.coinLine {
+        height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .extraParts img.coinBg {
+        height: 80px; 
+        top: -13px; 
+    }
+    .extraParts img.lights {
+        top: 35px; 
+    }
+
+
+
+    .rg_img_blk .blk_btns { 
+        bottom: 15px; 
+    }
+    .rg_img_blk .blk_btns button { 
+        margin: 0 5px;
+    }
+    .rg_img_blk .blk_btns button:first-child {
+        font-size: 18px; 
+    }
+    .rg_img_blk { 
+        margin-top: 30px;
+        max-width: 100%;
+        width: 240px;
+        border-radius: 25px;
+    }
+    .detail_content { 
+        padding: 20px; 
+        font-size: 12px;
+    }
+    .rg_img_blk .blk_btns button svg {
+        height: 45px; 
+    }
+    .register_instant img.rg_bg {
+        height: 950px;
+        object-fit: cover;
+        top: 175px;
+    }
+    .f_top ul.social li:first-child{
+        width: 100%;
+        text-align: center;
+    }
+    .rg_txt h3 { 
+        font-size: 22px;
+        line-height: 30px; 
+    }
+    .rg_txt h3 span { 
+        font-size: 34px;
+        line-height: 30px; 
+    }
+    .rg_txt ul li { 
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+    .rg_txt ul {
+        margin-top:0px;
+        margin-bottom: 35px;
+    }
+    .rg_txt {
+        padding-left: 25px;
+        padding-top: 35px;
+    }
+    a.themeBtn { 
+        height: 50px; 
+    }
+    a.themeBtn.withArrow {
+        padding: 0px 55px  0px 20px;
+    }
+    a.themeBtn img { 
+        right: 15px;
+        max-height: 35px; 
+    }
+    a.themeBtn.withArrow:after { 
+        width: 50px;
+        height: 98%; 
+    }
+    .rg_inst .rg_img {
+        max-width: 320px; 
+        top: 20px;
+    }
+    .section_title h3.greadient_bg { 
+        font-size: 30px;
+        line-height: 22px;
+    }
+    .section_title p { 
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .section_title {
+        margin-bottom: 30px;
+    }
+    .register_instant:before{
+        display: none;
+    }
+    .coin_bgs img.symbl_bg { 
+        top: auto;
+        bottom: 170px;
+    }
+    .f_top > div > img.logo {
+        max-width: 200px;
+    }
+    .f_top ul.social li a{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+    } 
+    .f_top ul.social li a svg {
+        width: 22px;
+        height: 22px;
+    }
+    .rg_inst {
+        flex-wrap: wrap;
+        padding-top: 110px;
+    }
+    footer img.coin { 
+        top: -30px; 
+        max-width: 50px;
+    }
+    .rg_img_blks {
+        flex-wrap: wrap;
+    }
+    .f_bottom h5 {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 0;
+        font-weight: 700;
+        color: #fff;
+    }
+    .f_top.ttp_last {
+        margin: 0;
+        padding: 0;
+        border-bottom: none;
+        position: relative;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    .kng_coins img.coin_1 {
+        bottom: 90px;
+        left: 30px;
+        max-width: 25px;
+    }
+    .f_top.ttp_last:after {
+        bottom: 0;
+        top: 0;
+    }
+    .register_instant { 
+        padding-top: 185px;
+        margin-top: -400px;
+    }
+    .kng_coins img.coin3 {
+        bottom: 45px;
+        right: 40px;
+        max-width: 40px;
+    }
+    .kng_coins img.coin_2 {
+        bottom: 35px;
+        left: 20px;
+        max-width: 40px;
+    }
+
+    /* Page 2 responsive css STARTED */
+
+    .how_to_top h4 { 
+        font-size: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .how_to_top h4 div { 
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 5px;
+        margin: 0;
+    }
+    .how_to_top h4 img {
+        max-width: 200px;
+        margin: 0;
+        margin-top: -36px;
+    }
+    .stp_wrp h3.f2title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .stp_wrp h3.f2title .greadient_bg { 
+        font-size: 30px;
+        line-height: 26px; 
+    }
+    .stp_wrp h3 {
+        margin-bottom: 25px;
+    }
+    h3.f3title { 
+        font-size: 26px; 
+        line-height: 24px;
+    }
+    h3.f3title .greadient_bg { 
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    h3.f4title span { 
+        font-size: 20px;
+        line-height: 20px;
+    }
+    h3.f4title .greadient_bg { 
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .end_more_wrp { 
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+    .end_more_wrp p.l_tp_content {
+        margin-bottom: 35px;
+    }
+    .how_to_top h4 span {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .single_step .stp_wrp {
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+    img.stp_img {
+        margin-bottom: 10px;
+        margin-top: 0px;
+        max-width: 90%;
+    }
+    .single_step.right_mode .stp_wrp p {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .rq_info p a img {
+        max-width: 100px;
+    }
+    .single_step.last_step:after { 
+        background: linear-gradient(0, transparent,#21202e,#21202e,#21202e); 
+    }
+    h3.ftitle span { 
+        font-size: 36px;
+        line-height: 25px; 
+    }
+    h3.ftitle a { 
+        font-size: 20px;
+        line-height: 25px; 
+    }
+    img.ltp_bg_end { 
+        height: 250px; 
+        object-fit: cover;
+    }
+    .single_step { 
+        padding: 5px 0; 
+        clip-path: polygon(0 0, 100% 50px, 100% 100%, 0% 100%);
+        padding-top: 90px;
+    }
+    .rq_info {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .rq_info p {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .single_step.last_step {
+        padding-bottom: 100px;
+    }
+    h3.ftitle span, .stp_wrp h3.f2title > div, .stp_wrp h3.f3title > div, .stp_wrp h3.f4title > div { 
+        font-size: 22px;
+        line-height: 24px; 
+    }
+    h3.ftitle a, .stp_wrp h3.f2title span, .stp_wrp h3.f3title span, .stp_wrp h3.f4title span { 
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .how_to_top > img.symbolBg { 
+        bottom: -148px;
+        clip-path: polygon(0 0, 100% 0, 100% 101%, 0 55%);
+    }
+
+    .show_detail .detail_content li { 
+        margin-top: 8px;  
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+    .owl-item.center{
+        transform: scale(1);
+    }
+    img.bottom_img { 
+        margin-bottom: -5px;
+    }
+    .vdo_blk b { 
+        font-size: 13px;
+        line-height: 20px; 
+        letter-spacing: 0.2em; 
+        width: 100%; 
+    }
+    .guids_area img.topShape { 
+        top: 0;
+        left: -10px; 
+        max-width: 300px;
+    } 
+    .guids_area_top { 
+        padding-top: 65px; 
+    }
+    .guid_item { 
+        margin: 20px 0; 
+    }
+    .kng_coins.withoutKan img.coin_2 {
+        left: 5%;
+        bottom: 152px;
+        max-width: 40px;
+    }
+    .kng_coins.withoutKan img.coin3 {
+        top: -85px;
+        right: 7%;
+        max-width: 60px;
+    }
+    .guids_area:after { 
+        height: 25%; 
+        top: 3%; 
+        clip-path: polygon(0 0, 100% 6%, 100% 100%, 0% 100%);
+    }
+    .all_videos {
+        padding-bottom: 65px; 
+        margin-top: -70px;
+    }
+    .gi_img a img.play_icon { 
+        width: 35px; 
+    }
+
+
+
+
+    /* Raffle */
+    .coin_bgs img.ggrp { 
+        bottom: 245px;
+        max-width: 440px;
+        margin-left: -190px;
+    }
+    .coin_bgs.raffle img.mbgs {
+        bottom: 245px;
+        min-width: 165% !important;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+    } 
+    .raffle form {
+        width: 280px;
+        height: 465px;
+        padding: 77px 25px;
+        margin-bottom: -68px;
+    }
+    .raffle form img.left { 
+        left: -35%;
+        bottom: 75px;
+        max-height: 200px;
+    }
+    .raffle form img.right { 
+        right: -15%;
+        bottom: 12px;
+        max-height: 200px;
+    }
+    .raffle form img.left { 
+        left: -15%;
+        bottom: 70px;
+        max-height: 150px;
+    }
+    .coin_bgs img.gift {
+        right: 13%;
+        bottom: 250px;
+        max-width: 35px;
+    }
+    .coin_bgs img.gift2 { 
+        bottom: 90px;
+        max-width: 40px;
+    }
+    .raffle form label { 
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .raffle form label input { 
+        padding: 15px;
+    }
+    .raffle form img.captha { 
+        max-width: 105px;
+    }
+    .extraParts img.rightBkp{
+        display: none;
+    }
+    .raffle form button { 
+        padding: 10px 25px; 
+        margin-top: 20px;
+        font-size: 12px; 
+    }
+    .raffle form label input {
+        padding: 10px;
+        font-size: 12px;
+        letter-spacing: 0.111rem;
+    }
+    .moreinfo {
+        padding-bottom: 140px; 
+        margin-bottom: -105px;
+    }
+    .toast { 
+        max-width: 280px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

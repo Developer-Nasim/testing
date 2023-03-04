@@ -1635,7 +1635,7 @@ tr {
 .winnerHistory{
   position: relative;
   overflow: hidden;
-}
+} 
 /* .winnerHistory.ldrs:after */
 .winnerHistory.ldrs .shapeBg{
   position: absolute;

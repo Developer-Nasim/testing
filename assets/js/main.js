@@ -1,4 +1,4 @@
-import { API,ChannelId } from "./env.js";
+// import { API,ChannelId } from "./env.js";
 (function($) {
   "use strict";
   
@@ -8,10 +8,11 @@ import { API,ChannelId } from "./env.js";
   }); 
 
   // show notification
-  function ShowNotif() { 
-    const TOAST_ME = document.getElementById("notif"); 
-    if (TOAST_ME) { 
-        TOAST_ME.addEventListener("click", () => { 
+  function ShowNotif() {  
+    let btns = document.querySelectorAll('#notif');
+    if (btns.length > 0) {
+      btns.forEach(btn => { 
+        btn.addEventListener("click", () => { 
             Toastinette.init({
                 position: 'top-center',
                 title: 'Success',
@@ -21,6 +22,7 @@ import { API,ChannelId } from "./env.js";
                 progress: true, 
             }); 
         });
+      }); 
     } 
   }
   ShowNotif()

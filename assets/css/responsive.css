@@ -12,7 +12,7 @@
         width: 48%;
     }
     .menu-area ul a {
-        width: 100%;
+        width: 96%;
         min-width: 130px;
         margin: 10px 0;
         font-size: 16px;
@@ -123,6 +123,19 @@
 
 
 
+    .raffel3 .extraParts img.carRoad {  
+        max-width: 940px;
+    }
+    main.raffleRegUp { 
+        max-height: 970px;
+    }
+    .desktopUpContent { 
+        right: -64%; 
+        padding: 15px 25px;
+        max-width: 320px; 
+    }
+
+
 
 
 }
@@ -142,11 +155,11 @@
         width: 48%;
     }
     .menu-area ul a {
-        width: 100%;
-        min-width: 130px;
+        width: 98%;
+        min-width: 40px;
         margin: 10px 0;
-        font-size: 16px;
-        padding: 0 12px;
+        font-size: 14px;
+        padding: 0 10px;
     }
     a.logo-area { 
         max-width: 100px; 
@@ -421,6 +434,39 @@
         bottom: 100px; 
         max-width: 75px; 
     }
+    .winnerTables > div {
+        border-radius: 69px; 
+    }
+    .winnerTables { 
+        padding: 30px 25px;
+    }
+    .winnerTables > div > div { 
+        border-radius: 60px;
+        padding: 20px;
+    }
+    .winnerWrp img { 
+        margin-right: 20px;
+        margin-bottom: -285px; 
+    }
+    .raffle-area.leadership .title_dgn {
+        margin-bottom: 440px !important;
+    }
+    .leadershipTable table thead tr td { 
+        font-size: 16px;
+        line-height: 26px;
+        padding: 2px 0;
+    }
+    .leadershipTable table thead tr td.withimg img {
+        min-width: 290px;
+        max-width: 290px; 
+        margin-top: -118px;
+    }
+    .leadershipTable:before {
+        left: 35%;
+    }
+    .leadershipTable:after {
+        left: 64%; 
+    }
 
 
 
@@ -429,6 +475,20 @@
 
 
 
+    .raffel3 .extraParts img.carRoad {
+        max-width: 755px;
+        bottom: 47px;
+    }
+
+    main.raffleRegUp { 
+        max-height: 970px;
+    }
+    .desktopUpContent { 
+        right: -44%;
+        padding: 13px;
+        max-width: 215px;
+        border-radius: 15px;
+    }
 
 
 
@@ -713,8 +773,8 @@
         margin-left: -60px;
     }
     .coin_bgs.raffle img.mbgs {
-        bottom: 360px;
-        min-width: 155% !important;
+        bottom: 240px;
+        min-width: 160% !important;
         display: block;
         left: 50%;
         transform: translateX(-50%);
@@ -766,6 +826,136 @@
 
 
 
+
+    .winnerTables {
+        flex-wrap: wrap;
+    }
+    
+    .winnerTables > div {
+        width: 100%;
+        border: none;
+        background: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    .winnerTables > div > div {
+        border-radius: 0;
+        background: none;
+        padding: 0;
+    }
+    .winnerWrp img {
+        max-width: 575px;
+        height: 420px; 
+        margin-right: 25px;
+        margin-bottom: -245px; 
+    }
+
+
+
+    .leadershipTable table tbody tr td:first-child span { 
+        font-size: 24px;
+        line-height: 24px; 
+    }
+    .leadershipTable table tbody tr td span {
+        letter-spacing: 1px; 
+        font-size: 15px;
+        line-height: 26px; 
+        padding: 10px 15px;
+        margin: 8px;
+        margin-top: 17px; 
+    }
+    .leadershipTable table tbody tr td:last-child span { 
+        font-size: 18px; 
+    }
+    .leadershipTable table thead tr td {
+        letter-spacing: 3px; 
+        font-size: 13px;
+        line-height: 30px;
+        padding: 2px 0;
+    }
+    .leadershipTable table thead tr td.withimg img {
+        min-width: 200px;
+        max-width: 200px;
+        display: block;
+        margin-top: -144px;
+        height: 170px;
+    }
+    .raffle-area.leadership .title_dgn {
+        margin-bottom: 570px !important;
+        margin-top: 0 !IMPORTANT;
+    }
+    .winnerWrp.ldrsp > img {
+        margin-bottom: -215px;
+    }
+    .winnerWrp.ldrsp > img {
+        margin-bottom: -215px;
+    }
+    .leadershipTable:before, .leadershipTable:after, .winnerHistory.ldrs:before { 
+        width: 5px; 
+    }
+    .leadershipTable:after {
+        left: 64%; 
+    }
+    .leadershipTable:before {
+        left: 36%;
+    }
+    .raffle-area.leadership .extraParts { 
+        top: -315px;
+    }
+    .raffle-area.leadership .extraParts img.symbolBg { 
+        bottom: 250px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .raffel3 .extraParts img.carRoad { 
+        max-width: 565px;
+        bottom: 40px;
+    }
+    .raffel3 .raffle form {
+        height: 584px;
+        padding: 120px 35px;
+    }
+    .raffel3 .raffle form img.right { 
+        max-height: 260px;
+    }
+
+    .raffel3 .coin_bgs.raffle img.mbgs {
+        bottom: 190px;
+        min-width: 125% !important; 
+    }
+    .raffel3 .coin_bgs img.gift2 {
+        bottom: 420px;
+        left: 6%;
+    }
+
+
+
+
+    main.raffleRegUp { 
+        max-height: unset;
+    }
+    .desktopUpContent,
+    main.raffleRegUp .raffel3 .extraParts img.coinBgEx,
+    main.raffleRegUp .extraParts img.rightBkp{
+        display: none;
+    }
+    main.raffleRegUp .raffel3 .coin_bgs.raffle img.mbgs {
+        bottom: 245px;
+        min-width: 125% !important;
+    }
 
 
 
@@ -1214,7 +1404,7 @@
         margin-left: -190px;
     }
     .coin_bgs.raffle img.mbgs {
-        bottom: 245px;
+        bottom: 223px;
         min-width: 165% !important;
         display: block;
         left: 50%;
@@ -1287,14 +1477,234 @@
 
 
 
+    .winnerHistory {
+        border-radius: 25px;
+        padding: 1px; 
+    }
+    .winnerTables {
+        flex-wrap: wrap;
+        border-radius: 25px;
+        padding: 20px;
+        padding-top: 30px;
+    }
+    .winnerTables table tr th { 
+        letter-spacing: 0em; 
+        padding: 8px 2px; 
+        font-size: 11px;
+    }
+    .winnerTables table tr th::after { 
+        width: 4px; 
+    }
+    .winnerTables table tbody tr td {
+        padding: 5px 0; 
+        padding-top: 15px;
+        letter-spacing: 0; 
+        font-size: 12px;
+    }
+    .winnerTables > div {
+        width: 100%;
+        border: none;
+        background: none;
+        border-radius: 0;
+        padding: 0;
+    }
+    .winnerWrp { 
+        margin-top: 25px;
+    }
+    .winnerTables > div > div {
+        border-radius: 0;
+        background: none;
+        padding: 0;
+    }
+    .winnerWrp img {
+        max-width: 270px;
+        height: 180px;
+        margin-right: 6px;
+        margin-bottom: -105px;
+    }
+    .winnerWrp .title_dgn {
+        position: relative;
+        margin-bottom: -19px;
+        padding: 11px 35px;
+        font-size: 13px;
+        letter-spacing: 1.2px;
+    }
 
 
+
+
+
+
+
+    .leadershipTable table thead tr td.withimg {
+        width: auto;
+    }
+    .leadershipTable table tbody tr td:first-child span { 
+        font-size: 13px;
+        line-height: 20px; 
+    }
+    .leadershipTable table tbody tr td span {
+        letter-spacing: 0px;
+        font-size: 10px;
+        line-height: 20px;
+        padding: 2px 8px;
+        margin: 0px 4px;
+        margin-top: 14px;
+        display: flex;
+        justify-content: center;
+    }
+    .leadershipTable table tbody tr td:last-child span { 
+        font-size: 10px; 
+        line-height: 20px;
+    }
+    .leadershipTable table thead tr td {
+        letter-spacing: 1px;
+        font-size: 8px;
+        line-height: 16px;
+        padding: 0px 0;
+    }
+    .leadershipTable table thead tr td.withimg img {
+        min-width: 70px;
+        max-width: 70px;
+        display: block;
+        margin-top: -54px;
+        height: 65px;
+    }
+    .raffle-area.leadership .title_dgn {
+        margin-bottom: 450px !important;
+        margin-top: 0 !IMPORTANT;
+    }
+    .winnerWrp.ldrsp > img {
+        margin-bottom: -215px;
+    }
+    .winnerWrp.ldrsp > img {
+        margin-bottom: -85px;
+    }
+    .leadershipTable:before, .leadershipTable:after, .winnerHistory.ldrs:before { 
+        width: 5px; 
+        left: 13.5%;
+    }
+    .leadershipTable table tbody tr td:nth-child(2) span{
+        min-width: 60px;
+        max-width: 60px;
+    }
+    .leadershipTable table tbody tr td span .text-truncate {
+        max-width: 50px;
+    }
+    .leadershipTable:after {
+        left: 69%; 
+    }
+    .leadershipTable:before {
+        left: 38%;
+    }
+    .raffle-area.leadership .extraParts { 
+        top: -315px;
+    }
+    .raffle-area.leadership .extraParts img.symbolBg { 
+        bottom: 250px; 
+    }
+    .leadershipTable { 
+        padding: 10px 5px;
+        padding-top: 0; 
+        border-radius: 25px; 
+    }
+    .moreinfo.leadership {
+        margin-top: -700px; 
+    } 
+    .leadershipTable table thead {
+        border-bottom: 0px solid transparent;
+    }
+    /* .winnerHistory.ldrs:after */
+    .winnerHistory.ldrs .shapeBg { 
+        top: 26px;
+        border-radius: 30px;
+    }
+
+    .raffle-area.leadership { 
+        padding-top: 45px;
+    }
+    .leadershipTable table tbody tr:first-child{
+        display: none;
+    }
+
+    .winnerWrp.ldrsp {
+        max-width: 294px;
+        margin: auto;
+        margin-top: 25px;
+      }
+
+
+
+
+
+
+
+
+
+
+    .raffel3 .extraParts img.carRoad { 
+        max-width: 290px;
+        bottom: 133px;
+    }
+    .raffel3 .raffle form {
+        height: 400px;
+        padding: 85px 30px;
+        margin-bottom: -25px;
+    }
+    .raffel3 .raffle form img.right { 
+        max-height: 160px;
+        right: -18%;
+    }
+
+    .raffel3 .coin_bgs.raffle img.mbgs {
+        bottom: 250px;
+        min-width: 190% !important;
+    }
+    .raffel3 .coin_bgs img.gift2 {
+        bottom: 270px;
+        left: 4%;
+    }
+    .raffel3 .extraParts img.coinBgEx {
+        height: 40px;
+    }
+    .raffel3 .extraParts img.coinBg {
+        top: -46px;
+        height: 160px;
+    }
+
+    
+
+    main.raffleRegUp { 
+        max-height: unset;
+    }
+    .desktopUpContent,
+    main.raffleRegUp .raffel3 .extraParts img.coinBgEx,
+    main.raffleRegUp .extraParts img.rightBkp{
+        display: none;
+    }
+    main.raffleRegUp .raffel3 .coin_bgs.raffle img.mbgs {
+        bottom: 245px;
+        min-width: 125% !important;
+    }
+    main.raffleRegUp .raffel3 .extraParts img.carRoad {
+        max-width: unset;
+        bottom: 45px;
+        height: 290px;
+    }
+    main.raffleRegUp .coin_bgs img.gift { 
+        z-index: 9;
+    }
 
 
 
 }
  
- 
+/* Large Mobile screen :480px. */
+@media only screen and (max-width: 580px) {
+    main.raffleRegUp .raffel3 .coin_bgs.raffle img.mbgs { 
+       min-width: 160% !important;
+   }
+}
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}

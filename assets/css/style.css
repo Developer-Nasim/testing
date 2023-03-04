@@ -1650,6 +1650,15 @@ tr {
   background: linear-gradient(180deg, #2B2752 0%, #231F45 100%);
   border-radius: 69px;
 }
+.separetors {
+  position: absolute;
+  width: 10px;
+  height: 99%;
+  background: #2B2752;
+  left: 15.5%;
+  z-index: 2;
+  bottom: 3px;
+}
 .leadershipTable:before,
 .leadershipTable:after,
 .winnerHistory.ldrs:before {

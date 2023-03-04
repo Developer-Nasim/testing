@@ -956,7 +956,9 @@
         bottom: 245px;
         min-width: 125% !important;
     }
-
+    .separetors{
+        width: 5px;
+    }
 
 
 }
@@ -1695,6 +1697,10 @@
         z-index: 9;
     }
 
+    .separetors{
+        width: 5px;
+        left: 12.5%;
+    }
 
 
 }
